@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #0D0029;
+    background-color: #121212; /*0D0029*/
     color: #fff;
     display: flex;
     align-items: center;
@@ -56,7 +56,7 @@
 }
 
 .nav-links li a.active {
-    background-color: #1D0355;
+    background-color: #4c4c4c; /* 1D0355*/
     padding: 8px 16px;
     opacity: 100%;
 }
