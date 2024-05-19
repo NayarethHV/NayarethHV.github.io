@@ -1,0 +1,16 @@
+#blob {
+    background-color: #3752FB;
+    height: 500px;
+    aspect-ratio: 1;
+    position: fixed;
+    left: 50%;
+    top: 100%;
+    translate: -50% -50%;
+    border-radius: 50%;
+    filter: blur(200px);
+    opacity: 25%;
+    z-index: -1;
+
+    
+}
+
