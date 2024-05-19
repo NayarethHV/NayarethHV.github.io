@@ -1,0 +1,730 @@
+
+body {
+    margin: 0px;
+    background-color: #0D0029;
+    color: #fff;
+    z-index: 3;
+    cursor: url(Imagenes/cursor.png), auto;
+    letter-spacing: 0.5px;
+
+
+}
+/* 151515 fondo y navbar en escala de grises y 0D0029 para color */
+
+::selection{
+    background-color: #3600AA;
+    color: #fff;
+    opacity: 30%;
+}
+
+.contenedor1 {
+    width: 700px;
+    display: inline-block;
+    margin-left: 40px;
+    padding-top: 300px;
+    margin-bottom: 0px;
+    z-index: 3;
+
+}
+
+.titulo-perfil {
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+    padding-left: 25px;
+    width: 530px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 4px;
+}
+
+
+.descripcion-perfil {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    width: 600px;
+    padding-left: 25px;
+    line-height : 25px;
+    letter-spacing: 0.5px;
+}
+
+.vl {
+    border-left: 0.5px solid #fff;
+    position: absolute;
+    left: 53%;
+    top: 300px;
+    display: inline-flex;
+    width: 5px;
+    height: 390px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.contenedor-soft-general {
+    width: 600px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.contenedor-softwares1 {
+    display: flex;
+    width: 500px;
+    gap: 10px;
+}
+
+.Photoshop {
+    font-family: "Roboto Mono";
+    font-size: 14px;
+    display: flex;
+    padding: 6px 21px;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+    border-radius: 35px;
+    border: 1px solid;
+    display: inline;
+    font-weight: 400;
+
+}
+
+.Illustrator {
+    font-family: "Roboto Mono";
+    font-size: 14px;
+    display: flex;
+    padding: 6px 21px;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+    border-radius: 35px;
+    border: 1px solid;
+    display: inline;
+    font-weight: 400;
+
+}
+
+.AfterEffects {
+    font-family: "Roboto Mono";
+    font-size: 14px;
+    display: flex;
+    padding: 6px 21px;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+    border-radius: 35px;
+    border: 1px solid;
+    display: inline;
+    font-weight: 400;
+
+}
+
+.VisualStudioCode {
+    font-family: "Roboto Mono";
+    font-size: 14px;
+    display: flex;
+    padding: 6px 21px;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+    border-radius: 35px;
+    border: 1px solid;
+    display: inline;
+    font-weight: 400;
+
+}
+
+.contenedor-softwares2 {
+    flex-shrink: 0;
+    display: flex;
+    width: 500px;
+    gap: 10px;
+    margin-top: 0px;
+}
+
+.TouchDesigner {
+    font-family: "Roboto Mono";
+    font-size: 14px;
+    display: flex;
+    padding: 6px 21px;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+    border-radius: 35px;
+    border: 1px solid;
+    display: inline;
+    font-weight: 400;
+
+}
+
+.InDesign {
+    font-family: "Roboto Mono";
+    font-size: 14px;
+    display: flex;
+    padding: 6px 21px;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+    border-radius: 35px;
+    border: 1px solid;
+    display: inline;
+    font-weight: 400;
+
+}
+
+.Figma {
+    font-family: "Roboto Mono";
+    font-size: 14px;
+    display: flex;
+    padding: 6px 21px;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+    border-radius: 35px;
+    border: 1px solid;
+    display: inline;
+    font-weight: 400;
+
+}
+
+.NOMBRE {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+    margin-bottom: 0px;
+    
+}
+
+.contenedor2 {
+    width: 500px;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 290px;
+    margin-left: 65px;
+    vertical-align: top;
+}
+
+.Nayareth {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+
+}
+
+.correo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.EDUCACION {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    display: block;
+    text-decoration-line: underline;  
+    text-underline-offset: 5px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.contenedor-año1 {
+    display: inline-block;
+    align-items: baseline;
+    display: flex;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    height: 30px;
+}
+
+
+.año1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    display: inline;
+}
+
+.UDP {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px; 
+    display: inline;
+    padding-inline-start: 75px;
+
+}
+
+.contenedror-año2 {
+    display: inline-block;
+    align-items: baseline;
+    display: flex;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    height: 40px;
+    padding-top: 30px;
+    
+}
+
+.año2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    display: inline;  
+    margin-top: 10px;
+    margin: 0px;
+
+}
+
+.HKBU {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px; 
+    display: inline;
+    padding-inline-start: 71px;
+    margin-top: 10px;
+
+
+}
+
+.contenedor-año3 {
+    width: 500px;
+    display: inline-block;
+    align-items: baseline;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 30px;
+    
+}
+
+.año3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.excelia {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px; 
+    box-sizing: border-box;
+    padding-left: 75px;
+    line-height : 26px;
+    margin: 0px;
+}
+
+
+.EXPERIENCIA {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.contenedor-teatro {
+    display: inline-block;
+    align-items: baseline;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 30px;
+}
+
+.año-teatro {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    display: inline;
+}
+
+.teatro {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px; 
+    display: inline;
+    padding-inline-start: 75px;
+
+}
+
+.contenedor-patrimonio {
+    width: 550px;
+    display: inline-block;
+    align-items: baseline;
+    display: flex;
+
+}
+
+.año-practica {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-right: 7px;
+}
+
+.practica {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px; 
+    box-sizing: border-box;
+    padding-left: 68px;
+    width: 380px;
+    line-height : 25px;
+}
+
+.footer {
+    font-family: "Roboto Mono";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 700px;
+
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 347px;
+    padding-right: 347px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-fila1 {
+    margin: 10px;
+}
+
+.footer-fila2 {
+    margin: 10px;
+}
+.contenedor-inicio {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen1 {
+    display: inline-block;
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+    height: 680px; 
+    width: 1208px;
+    z-index: 3;
+
+}
+
+.contenedor-scroll {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    z-index: 3;
+}
+
+.flecha {
+    width: 19px;
+    height: 14px;
+    flex-shrink: 0;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+
+}
+
+.scroll1 {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 1px;
+    display: inline;
+    align-items: center;
+    
+
+}
+
+.contenedor-proyectos {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.proyectos {
+    margin-bottom: 0px;
+}
+
+.xd {
+    margin: 0px;
+}
+
+.xdd {
+    margin: 0px;
+
+}
+
+.xddd {
+    margin: 0px;
+    margin-top: 0px;
+}
+
+.imagen2 {
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    width: 800px;
+    height: 716px;
+    margin-top: 100px;
+}
+
+.contenedor-inicio2 {
+    width: 1000px;
+    display: inline-flex;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 500px;
+    
+}
+
+.contenedor-inicio-parrafo {
+    display: inline-block;
+    height: 800px;
+    margin-top: 100px;
+
+}
+
+.inicio-parrafo {
+    font-size: 16px;
+    padding-left: 0px;
+    line-height : 25px;
+    display: inline-block;
+    width: 500px;
+    margin-top: 350px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+
+.segundaparte-parrafo {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height : 25px;
+
+}
+
+.inicio-click {
+    display: inline-block;
+    align-items: center;
+    margin-top: 0px;
+    height: 40px;
+    height: auto;
+    border: 1px solid;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.clicl-proyectos {
+    font-family: "Roboto Mono";
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+
+}
+
+.flecha22 {
+    margin-top: 5px;
+    display: inline;
+    padding-top: 30px;
+}
+
+.flecha2 {
+    width: 19px;
+    height: 14px;
+    flex-shrink: 0;
+    display: inline;
+    vertical-align: baseline;  
+}  /* no baja, DUDA */ 
+
+/*contacto*/
+
+.contenedor-contacto {
+    height: 700px;
+    height: 700px;
+    display: flex;
+}
+
+.contenedor-contacto-mini {
+    margin-left: 90px;
+    margin-top: 30px;
+
+}
+.contenedor-titulo-contacto {
+    margin-top: 200px;
+    display: inline-block;
+}
+
+.titulo-contacto {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 85px;
+    width: 700px;
+    display: flex;
+}
+
+.contenedor-texto-contacto {
+    height: 200px;
+    display: inline-block;
+    margin-top: 0px;
+    vertical-align: top;
+    display: flex;
+    align-items: baseline;
+    width: 600px;
+    margin-top: 40px;
+}
+
+.contenedor1-contacto {
+    height: 200px;
+}
+
+.contenedor-correo {
+    width: 200px;
+}
+
+.contenedor-rss {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    height: 100px;
+    padding-top: 0px;
+    width: 400px;
+    margin-left: 200px;
+}
+
+.imagen3 {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    width: 600px;
+    height: 678px;
+    margin-top: 170px;
+    display: inline-block;
+
+
+}
+
+.email-contacto {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.correo-contacto {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    opacity: 30%;
+
+}
+
+.Tambien-en {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    display: block;
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.Behance {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    opacity: 30%;
+
+}
+
+.Instagram {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    display: block;  
+    margin-top: 10px;
+    opacity: 30%;
+
+}
+
+.Linkedin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    display: block;  
+    margin-top: 10px;
+    opacity: 30%;
+}
