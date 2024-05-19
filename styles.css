@@ -681,7 +681,10 @@ body {
     margin-bottom: 0px;
     margin-top: 15px;
     opacity: 30%;
+}
 
+.correo-contacto:hover {
+    opacity: 100%;
 }
 
 .Tambien-en {
@@ -705,7 +708,10 @@ body {
     margin-bottom: 0px;
     margin-top: 15px;
     opacity: 30%;
+}
 
+.Behance:hover {
+    opacity: 100%;
 }
 
 .Instagram {
@@ -716,7 +722,10 @@ body {
     display: block;  
     margin-top: 10px;
     opacity: 30%;
+}
 
+.Instagram:hover {
+    opacity: 100%;
 }
 
 .Linkedin {
@@ -727,4 +736,8 @@ body {
     display: block;  
     margin-top: 10px;
     opacity: 30%;
+}
+
+.Linkedin:hover {
+    opacity: 100%;
 }
