@@ -1,2 +1,0 @@
-# NayarethHV.github.io
-Portfolio
