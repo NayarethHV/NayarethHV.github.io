@@ -1,7 +1,7 @@
 
 body {
     margin: 0px;
-    background-color: #232323;
+    background-color: #0D0029;
     color: #fff;
     z-index: 3;
     cursor: url(Imagenes/cursor.png), auto;
@@ -29,11 +29,11 @@ body {
 
 .titulo-perfil {
     font-family: "Gloock", serif;
-    font-weight: 400;
+    font-weight: 100;
     font-style: normal;
-    font-size: 55px;
+    font-size: 50px;
     padding-left: 25px;
-    width: 530px;
+    width: 625px;
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
@@ -557,6 +557,8 @@ body {
 }
 
 .inicio-click {
+    background-color: #160046;
+    color: #fff;
     display: inline-block;
     align-items: center;
     margin-top: 0px;
@@ -702,11 +704,13 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
+    color: #fff;
     font-size: 16px;
     margin-top: 10px;
     margin-bottom: 0px;
     margin-top: 15px;
-    opacity: 30%;
+    opacity: 50%;
+    text-decoration: none;
 }
 
 .Behance:hover {
@@ -720,7 +724,9 @@ body {
     font-size: 16px;
     display: block;  
     margin-top: 10px;
-    opacity: 30%;
+    opacity: 50%;
+    text-decoration: none;
+    color: #fff;
 }
 
 .Instagram:hover {
@@ -734,7 +740,9 @@ body {
     font-size: 16px;
     display: block;  
     margin-top: 10px;
-    opacity: 30%;
+    opacity: 50%;
+    text-decoration: none;
+    color: #fff;
 }
 
 .Linkedin:hover {
