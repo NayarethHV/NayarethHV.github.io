@@ -557,6 +557,7 @@ body {
 }
 
 .inicio-click {
+    font-family: "Roboto Mono";
     background-color: #160046;
     color: #fff;
     display: inline-block;
@@ -571,7 +572,7 @@ body {
     cursor: pointer;
 }
 
-.clicl-proyectos {
+.clic-proyectos {
     font-family: "Roboto Mono";
     font-size: 16px;
     justify-content: center;
@@ -747,4 +748,172 @@ body {
 
 .Linkedin:hover {
     opacity: 100%;
+}
+
+.contenedor-proyecto1 {
+    width: 1320px;
+    margin-top: 0px;
+    align-items: center;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    display: block;
+    z-index: 3;
+
+    
+}
+
+.proyecto1 {
+    display: inline-block;
+    width: 800px;
+    margin-left: 0px;
+
+}
+
+.contenedor-textos-proyecto {
+    width: 500px;
+    display: inline-block;
+    margin: auto;
+    vertical-align: top;
+}
+
+.contenerdor-titulo-proyecto {
+    width: 400px;
+    margin-top: 140px;
+}
+
+.titulo-proyecto {
+    font-family: "Albert Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.subtitulo-proyecto {
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+
+
+}
+
+.categoría-proyecto {
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+    text-align: center;
+
+
+}
+
+.año-proyecto {
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+    text-align: center;
+
+
+}
+
+.contenedor-parrafo-proyecto {
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 200;
+    margin-top: 100px;
+    width: 450px;
+}
+
+
+.mas {
+  
+    margin-top: 5px;
+    display: inline;
+    padding-top: 30px;
+}
+
+.mass {
+    width: 19px;
+    height: 14px;
+    flex-shrink: 0;
+    display: inline;
+    vertical-align: baseline;  
+    border: 2px;
+
+}
+
+.mas-click {
+    font-family: "Roboto Mono";
+    background-color: #160046;
+    color: #fff;
+    display: inline-block;
+    align-items: center;
+    height: 40px;
+    height: auto;
+    border: 1px solid;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.boton-detalles {
+    margin-left: 0px;
+}
+
+.contenedor-proyecto2 {
+    width: 1320px;
+    margin-top: 0px;
+    align-items: center;
+    padding: 50px;
+    position:flex;
+    flex-direction: column;
+    align-items: baseline;
+    display: inline-block;
+    margin-left: 0px;
+}
+
+.proyecto2 {
+    display: inline-block;
+    width: 700px;
+    z-index: 5;
+    
+}
+
+.contenedor-textos-proyecto2 {
+    width: 500px;
+    display: inline-block;
+    margin: auto;
+    vertical-align: top;
+    margin-left: 100px;
+}
+
+.contenedor-proyecto3 {
+    width: 1320px;
+    margin-top: 0px;
+    align-items: center;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    display: block;
+    z-index: 3;
+
+    
+}
+
+.proyecto3 {
+    display: inline-block;
+    width: 800px;
+    margin-left: 0px;
+
+}
+
+.contenedor-textos-proyecto3 {
+    width: 500px;
+    display: inline-block;
+    margin: auto;
+    vertical-align: top;
 }
