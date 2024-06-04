@@ -780,7 +780,7 @@ body {
 
 .contenerdor-titulo-proyecto {
     width: 400px;
-    margin-top: 140px;
+    margin-top: 100px;
 }
 
 .titulo-proyecto {
@@ -881,8 +881,10 @@ body {
 
 .proyecto2 {
     display: inline-block;
-    width: 700px;
-    z-index: 5;
+    width: 800px;
+    position: absolute
+
+    
     
 }
 
@@ -892,6 +894,7 @@ body {
     margin: auto;
     vertical-align: top;
     margin-left: 110px;
+    position: relative
 }
 
 .contenedor-proyecto3 {
@@ -972,3 +975,24 @@ body {
     margin-top: 30px;
     margin-bottom: 0px;
 }
+
+.contenedor-parrafo2-proyecto {
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 200;
+    margin-top: 30px;
+    width: 450px;
+    font-size: 17px;
+
+}
+
+.contenedor-proceso2 {
+    width: 1300px;
+}
+
+.imagen1-proceso2 {
+    width: 800px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
