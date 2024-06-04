@@ -455,6 +455,7 @@ body {
     align-items: center;
     margin-top: 0px;
     z-index: 3;
+    
 }
 
 .flecha {
@@ -754,7 +755,7 @@ body {
     width: 1320px;
     margin-top: 0px;
     align-items: center;
-    padding: 50px;
+    padding-top: 50px;
     flex-direction: column;
     align-items: center;
     display: block;
@@ -765,7 +766,7 @@ body {
 
 .proyecto1 {
     display: inline-block;
-    width: 800px;
+    width: 780px;
     margin-left: 0px;
 
 }
@@ -824,6 +825,8 @@ body {
     font-weight: 200;
     margin-top: 100px;
     width: 450px;
+    font-size: 17px;
+
 }
 
 
@@ -917,3 +920,105 @@ body {
     margin: auto;
     vertical-align: top;
 }
+
+.contenedor-scroll-proyectos {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+
+}
+
+.contenedor-proceso1 {
+    width: 1300px;
+    display: inline-block;
+    align-items: baseline;
+
+}
+
+.imagen1-proceso1 {
+    width: 600px;
+    display: inline-block;
+    
+
+}
+
+.texto1-proceso1 {
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 200;
+    width: 460px;
+    font-size: 17px;
+    display: inline-block;
+    vertical-align: top;
+    align-items: baseline;
+
+}
+
+.imagen2-proceso1 {
+    width: 300px;
+    display: flex;
+    align-items: baseline;
+
+}
+
+/* 
+como lograr en css que imagen2-proceso1 quede debajo de texto1-proceso1 y ambos al lado de imagen1-proceso1   <div class="contenedor-proyecto1">
+
+            <img class="proyecto1" src="Imagenes/proyecto1.png">
+
+
+            <div class="contenedor-textos-proyecto">
+                <div class="contenerdor-titulo-proyecto">
+                    <div class="titulo-proyecto">
+                        INTERPRETACIÓN AUDIOVISUAL
+                    </div>
+
+                    <div class="subtitulo-proyecto">
+                        “Geometría Sagrada”
+                    </div>
+
+                    <div class="categoría-proyecto">
+                        Illustración // Editorial
+                    </div>
+
+                    <div class="año-proyecto">
+                        2022
+                    </div>
+                </div>
+
+                <div class="contenedor-parrafo-proyecto">
+                    Proyecto editorial que surgió por parte del acuerdo establecido entre la Universidad Diego Portales y el Teatro Municipal de Santiago, el cual consistía en el diseño de un afiche para el evento interpretativo de la Sinfonía del Nuevo Mundo por Antonín Dvořák. Además, al ser este proyecto  seleccionado por el teatro, su diseño fue utilizado para las redes sociales y un cartel en grande a las afueras del lugar.
+                </div>
+
+            </div>
+                    
+        </div>
+        <div class="contenedor-scroll-proyectos">
+            <div class="contenedor-scroll">
+                <svg class="flecha" xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                    <path d="M10.4868 19L10.4855 10.3752M10.4855 10.3628L10.4855 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M20 10.3627L11.7595 18.4842C11.0639 19.1698 9.93607 19.1698 9.24047 18.4842L0.999998 10.3627" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+    
+                <p class="scroll1">
+                     Desliza para descubrir
+                </p>
+    
+            </div>
+        </div>
+
+        <div class="contenedor-proceso1">
+            <img class="imagen1-proceso1" src="Imagenes/logo.png">
+
+            <div class="texto1-proceso1">
+                <p>
+                    La identidad visual fue trabajada bajo el concepto Hechizo, el cual representa la reacción del público al observar las proyecciones. Ya que la atención de la gente fue cautivada al notar como el ritmo de la animación y la sinfonía se sincronizaban.
+                </p>
+            </div>
+
+            <img class="imagen2-proceso1" src="Imagenes/elementosgraficos.png">
+
+        </div>
+
+        */
+
+        
