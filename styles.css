@@ -450,11 +450,15 @@ body {
 }
 
 .contenedor-scroll {
-    display: inline-block;
     justify-content: center;
     align-items: center;
     margin-top: 0px;
     z-index: 3;
+    display: flex;
+    flex-direction: row; /* Cambiado a row para alinear horizontalmente */
+    text-align: center;
+    height: 10px; /* Ajusta la altura según necesites */
+    
     
 }
 
@@ -466,6 +470,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0px;
+    width: auto;
 
 }
 
@@ -478,38 +483,10 @@ body {
     letter-spacing: 1px;
     display: inline;
     align-items: center;
-    
-
+    margin-left: 10px;
+    height: 20px;
 }
 
-.contenedor-proyectos {
-    display: flex;
-    padding-top: 40px;
-    padding-bottom: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
-    flex-direction: column;
-    align-items: center;
-    
-}
-
-.proyectos {
-    margin-bottom: 0px;
-}
-
-.xd {
-    margin: 0px;
-}
-
-.xdd {
-    margin: 0px;
-
-}
-
-.xddd {
-    margin: 0px;
-    margin-top: 0px;
-}
 
 .imagen2 {
     display: inline-block;
@@ -951,8 +928,8 @@ body {
 .texto1-proceso1 {
     font-family: "Albert Sans", sans-serif;
     font-weight: 200;
-    width: 460px;
-    font-size: 19px;
+    width: 450px;
+    font-size: 17px;
     margin-bottom: 20px; /* Espacio entre el texto y la segunda imagen */
     margin-left: 130px;
     margin-top: 60px;
@@ -986,13 +963,67 @@ body {
 }
 
 .contenedor-proceso2 {
-    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .imagen1-proceso2 {
-    width: 800px;
-    flex-direction: column;
-    align-items: center;
+    margin-left: 0px;
+    margin-top: 100px;
+    width: 900px;
+}
+
+.link-youtube {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    opacity: 50%;
+    text-decoration: none;
+    text-decoration-line: underline;
+    text-underline-offset: 4px;
+}
+
+.link-youtube:hover {
+    opacity: 100%;
+}
+
+.imagen2-proceso2 {
+    width: 1300px;
+    margin-right: 00px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.contenedor-textos2-proyecto2 {
     display: flex;
 }
 
+.minitexto1deproyecto {
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 200;
+    width: 470px;
+    font-size: 17px;
+    margin-bottom: 20px; /* Espacio entre el texto y la segunda imagen */
+    margin-left: 100px;
+    margin-top: 60px;
+    
+}
+
+.minitexto2deproyecto {
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 200;
+    width: 470px;
+    font-size: 17px;
+    margin-bottom: 20px; /* Espacio entre el texto y la segunda imagen */
+    margin-left: 230px;
+    margin-top: 60px;
+    
+}
