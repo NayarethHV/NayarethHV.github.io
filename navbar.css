@@ -12,8 +12,10 @@
 }
 
 .navbar-title {
-
-    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 23px;
     font-weight: 600;
     line-height: normal;
     margin-top: 15px;
