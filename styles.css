@@ -426,6 +426,7 @@ body {
 }
 
 .footer-fila1 {
+    font-family: "Roboto Mono";
     margin: 10px;
     color: #fff;
     text-decoration: none;
@@ -433,6 +434,7 @@ body {
 }
 
 .footer-fila2 {
+    font-size: 13px;
     margin: 10px;
 }
 .contenedor-inicio {
