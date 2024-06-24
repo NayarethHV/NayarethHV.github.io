@@ -413,6 +413,8 @@ body {
     font-weight: 400;
     line-height: normal;
     width: 700px;
+    color: #fff;
+    text-decoration: none;
 
     display: flex;
     padding-top: 100px;
@@ -425,6 +427,9 @@ body {
 
 .footer-fila1 {
     margin: 10px;
+    color: #fff;
+    text-decoration: none;
+
 }
 
 .footer-fila2 {
@@ -653,7 +658,7 @@ body {
     display: inline-block;
     text-decoration-line: underline;
     text-underline-offset: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     margin-top: 20px;
 }
 
@@ -664,8 +669,10 @@ body {
     font-size: 16px;
     margin-top: 10px;
     margin-bottom: 0px;
-    margin-top: 15px;
+    margin-top: 25px;
     opacity: 30%;
+    color: #fff;
+    text-decoration-line: none;
 }
 
 .correo-contacto:hover {
